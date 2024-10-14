@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "A4";
+  src: url("./Fonts/a4.woff2");
+}
+@font-face {
+  font-family: "U4";
+  src: url("./Fonts/u4.woff2");
+}
+@font-face {
+  font-family: "U7";
+  src: url("./Fonts/u7.woff2");
+}
+@font-face {
+  font-family: "U8";
+  src: url("./Fonts/u8.woff2");
+}
+
+.menu {
+  font-family: "A4";
+}
+
+.homeheadingtext span {
+  font-family: "U8";
+}
+.homeheadingtext .reversed {
+  font-family: "A4";
+}
+.reel{
+  cursor: pointer;
+}
+.playbutton {
+  border: 1px solid #fff;
+  transition: all 0.3s ease-out;
+}
+.reel:hover .playbutton {
+  border: 1px solid #ffffff46;
+}
+.homebottomtext h1, .otherthenreel h1 {
+  font-family: "A4";
+}
+
+.home{
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+  transition: all 1.5s cubic-bezier(.92,-0.17,.41,1.02);
+}
